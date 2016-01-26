@@ -7,3 +7,6 @@ Install following software
 - VirtualBox
 - ansible
 - vagrant
+
+# run
+`ansible-playbook playbook.yaml -i inventories/my_vagrant.ini`
