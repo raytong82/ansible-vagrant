@@ -1,0 +1,8 @@
+---
+- name: dummy
+  hosts: all
+  remote_user: vagrant
+  
+  tasks:
+  - name: dummy
+    shell: echo "abc"
