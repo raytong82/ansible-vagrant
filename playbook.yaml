@@ -1,7 +1,7 @@
 ---
 - name: dummy
   hosts: all
-  remote_user: vagrant
+  remote_user: "{{ remote_user | default(root) }}"
   become: yes
   become_user: root
   become_method: sudo
