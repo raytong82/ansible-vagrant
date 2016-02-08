@@ -1,7 +1,7 @@
 ---
 - name: my playbook test
   hosts: all
-  remote_user: "{{ remote_user | default(root) }}"
+  remote_user: "{{ remote_user | default('root') }}"
   become: yes
   become_user: root
   become_method: sudo
