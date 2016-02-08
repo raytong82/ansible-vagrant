@@ -11,3 +11,6 @@
     yum: name="{{ item }}" state=present
     with_items:
       - unzip
+
+  roles:  
+    - { role: geerlingguy.java }
