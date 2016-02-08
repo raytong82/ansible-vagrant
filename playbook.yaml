@@ -1,5 +1,5 @@
 ---
-- name: dummy
+- name: my playbook test
   hosts: all
   remote_user: "{{ remote_user | default(root) }}"
   become: yes
