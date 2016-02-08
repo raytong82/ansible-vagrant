@@ -14,3 +14,4 @@
 
   roles:  
     - { role: geerlingguy.java }
+    - { role: geerlingguy.git }

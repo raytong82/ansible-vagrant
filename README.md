@@ -4,7 +4,7 @@ Ansible with Vagrant
 [![Build Status](https://travis-ci.org/raytong82/ansible-vagrant.svg?branch=master)](https://travis-ci.org/raytong82/ansible-vagrant)
 
 # pre-requisites for running under Vagrant
-Install following software
+Install following software:
 - babun / cygwin (optional)
 - VirtualBox
 - ansible
