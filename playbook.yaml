@@ -2,7 +2,12 @@
 - name: dummy
   hosts: all
   remote_user: vagrant
+  become: yes
+  become_user: root
+  become_method: sudo
   
   tasks:
-  - name: dummy
-    shell: echo "abc"
+  - name: install basic packages
+    yum: name="{{ item }}" state=present
+    with_items:
+      - unzip
